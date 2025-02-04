@@ -1,7 +1,15 @@
 import { arraySum } from "../src/array-sum";
 
 describe("array sum", () => {
-  it("return correct value", () => {
+  it("return 15", () => {
     expect(arraySum([1, 2, 3, 4, 5])).toBe(15);
+  });
+
+  it("return 6", () => {
+    expect(arraySum([1, 2, 3])).toBe(6);
+  });
+
+  it("return ", () => {
+    expect(arraySum([1, 2])).toBe(3);
   });
 });

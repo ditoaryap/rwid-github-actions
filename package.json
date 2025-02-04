@@ -1,6 +1,6 @@
 {
   "name": "@ditoaryap/rwid-cicd-jest",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "description": "Learn CI/CD on Github Actions using Typescript",
@@ -17,7 +17,8 @@
     "build": "tsx",
     "test": "jest",
     "lint": "prettier --check src/ tests/",
-    "format": "prettier --write src/ tests/"
+    "format": "prettier --write src/ tests/",
+    "log": "standard-version"
   },
   "keywords": [
     "ditoaryap",

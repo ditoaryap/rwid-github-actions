@@ -13,10 +13,22 @@
     "node": "22.13.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon"
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsx",
+    "test": "jest",
+    "lint": "prettier --check src/ tests/",
+    "format": "prettier --write src/ tests/"
   },
-  "keywords": [],
+  "keywords": [
+    "ditoaryap",
+    "Github Actions",
+    "CI/CD",
+    "Typescript",
+    "Javascript",
+    "Express",
+    "Node.Js"
+  ],
   "author": {
     "name": "Dito Aryaputra Ramadhani",
     "email": "ditoaryaputra1324@gmail.com"
